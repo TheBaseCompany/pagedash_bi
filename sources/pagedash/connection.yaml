@@ -1,0 +1,5 @@
+# This file was automatically generated
+name: pagedash
+type: sqlite 
+options:
+  filename: local.sqlite

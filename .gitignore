@@ -5,6 +5,9 @@ node_modules
 .DS_Store
 static/data
 *.options.yaml
+*sql
+*db
+*sqlite
 .vscode/settings.json
 .env
 .evidence/meta

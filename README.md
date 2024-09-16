@@ -46,3 +46,12 @@ Check out the docs for [alternative install methods](https://docs.evidence.dev/g
 - [Github](https://github.com/evidence-dev/evidence)
 - [Slack Community](https://slack.evidence.dev/)
 - [Evidence Home Page](https://www.evidence.dev)
+
+## Custom
+```bash
+turso db shell pagedash-production .dump > dump.sql
+
+cat dump.sql | sqlite3 sources/pagedash_sqlite/local.db
+
+sqlite2duckdb sources/pagedash_sqlite/local.sqlite sources/pagedash_sqlite/local.duckdb
+```
